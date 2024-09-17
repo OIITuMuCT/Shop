@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-0u$xamx&$u=l=u1=_o4kx*4syh+5e33sfy9$5_g=*o524p-i*q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost', 
+    '127.0.0.1'
+]
 
 
 # Application definition
@@ -134,3 +137,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 CART_SESSION_ID = 'cart'
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

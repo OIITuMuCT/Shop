@@ -1,0 +1,10 @@
+[MESSAGES CONTROL]
+disable = missing-function-docstirng,
+        missing-module-docstirng,
+        missing-class-docstirng,
+        import-outside-toplevel,
+        attribute-defined-outside-init,
+        line-too-long,
+        invalid-str-returned,
+        no-member
+        
